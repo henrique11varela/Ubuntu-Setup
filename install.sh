@@ -1,5 +1,7 @@
 #!/bin/sh
 
+sudo apt install vim
+
 # Install flatpak
 echo 'installing flatpak'
 
@@ -15,3 +17,5 @@ flatpak install flathub com.spotify.Client
 flatpak install flathub com.brave.Browser
 flatpak install flathub org.videolan.VLC
 flatpak install flathub com.stremio.Stremio
+flatpak install flathub com.github.sdv43.whaler
+
